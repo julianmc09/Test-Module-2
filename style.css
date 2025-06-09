@@ -24,7 +24,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
-    animation: fade 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
 }
 
 .header {
