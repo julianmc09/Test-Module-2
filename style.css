@@ -1,7 +1,6 @@
 .body {
     font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS';
-    background-color: beige
-
+    background-color: beige;
 }
 
 *{
@@ -102,6 +101,31 @@
 .main{
     background-color: black;
     color: white;
+    margin-top: 5px;
+    height: auto;
 }
 
+.languages-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
 
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 70px;
+    gap: 15px;
+}
+
+.personal-information{
+    font-size: 25px;
+    display: flex;
+    margin-left: 530px;
+}
+
+.personal-information p{
+    margin-top: 60px;
+}
