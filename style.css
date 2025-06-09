@@ -152,3 +152,19 @@
     margin-right: 200px;
     text-align: justify;
 }
+
+.projects-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-information{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 70px;
+    margin-right: 70px;
+    gap: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
