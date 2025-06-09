@@ -116,16 +116,39 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 70px;
     gap: 15px;
 }
 
 .personal-information{
     font-size: 25px;
-    display: flex;
-    margin-left: 530px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+
 }
 
 .personal-information p{
     margin-top: 60px;
+}
+
+.personal-photo{
+    width: 250px;
+    height: 580px;
+    margin-top: 10px;
+    border: solid 5px beige;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.personal-photo:hover{
+    background-color:rgb(243, 243, 200);
+    border-radius: 10px;
+    padding: 2px;
+    border-color: black;
+    color: black;
+}
+
+.personal-description{
+    margin-right: 200px;
+    text-align: justify;
 }
