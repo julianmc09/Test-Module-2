@@ -25,6 +25,7 @@
     margin-bottom: 50px;
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
     animation: fade 1.5s ease-in-out;
+    height: auto;
 }
 
 .header {
@@ -202,6 +203,7 @@
     border: solid 2px white;
     border-radius: 10px;
     transition: background-color 0.3s ease-in-out;
+    margin-bottom: 20px;
 }
 
 .projects-information div a:hover{
@@ -210,3 +212,144 @@
     padding: 1px;
     color: black;
 }
+
+.contact-information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contacts-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border: solid 5px beige;
+    width: 370px;
+    border-radius: 10px;
+    margin-left: 490px;
+    margin-bottom: 20px;
+}
+
+.message-field{
+    text-align: center;
+    background-color: white;
+    padding: 20px 70px;
+    border: solid 5px beige;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.button-message{
+    text-align: center;
+    background-color:white;
+    color: black;
+    padding: 20px 70px;
+    border: solid 5px beige;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 67px;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.button-message:hover{
+    background-color:rgb(243, 243, 200);
+    border-radius: 10px;
+    padding: 20px 70px;
+    color: black;
+}
+
+
+.input-field{
+    display: flex;
+    margin-left: 20px;
+    border-style:solid;
+    border-width: 1.8px;
+    border-radius: 8px;
+    padding: 20px 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img{
+    width: 50px;
+    height: 50px;
+}
+
+.social-networks-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: column;
+    border: solid 5px beige;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.social-networks-images a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-style: none;
+    color:white;
+    font-size: 20px;
+    border: solid 2px white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.social-networks-images a:hover{
+    background-color:rgb(243, 243, 200);
+    border-radius: 10px;
+    padding: 1px;
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+
+}
+
+.footer-menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-right: 150px;
+
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+    padding:20px;
+    font-size: 32px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer-menu li a:hover{
+    background-color:rgb(243, 243, 200);
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+}
+
